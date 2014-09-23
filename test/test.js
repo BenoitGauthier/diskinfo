@@ -1,4 +1,4 @@
-var d = require('../lib/disks.js');
+var d = require('diskinfo');
 
 d.getDrives(function(err, aDrives) {
 

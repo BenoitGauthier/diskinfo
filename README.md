@@ -1,7 +1,8 @@
 diskinfo
 ========
 
-nodejs module to get disk information
+nodejs module to get disk information, will call system command to get drive info. 
+Parse result and load info in array.  
 
 usage
 =====

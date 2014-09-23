@@ -7,9 +7,9 @@ Parse result and load info in array.
 usage
 =====
 
-  var d = require('diskinfo');
+    var d = require('diskinfo');
 
-  d.getDrives(function(err, aDrives) {
+    d.getDrives(function(err, aDrives) {
   
           for (var i = 0; i < aDrives.length; i++) {
                   console.log('Drive ' + aDrives[i].filesystem);
@@ -21,4 +21,4 @@ usage
           console.log('-----------------------------------------');
           }
   
-  });
+    });
